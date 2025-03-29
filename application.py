@@ -82,7 +82,7 @@ def predict():
         }
 
         # SageMaker endpoint URL
-        endpoint_url = 'https://u25fgqo4h9.execute-api.us-east-1.amazonaws.com/Prod/predict'
+        endpoint_url = ''
 
         # Send request to SageMaker
         headers = {'Content-Type': 'application/json'}
